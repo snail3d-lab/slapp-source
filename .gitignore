@@ -1,0 +1,8 @@
+node_modules/
+DerivedData/
+*.store
+.DS_Store
+*.log
+server/state.json
+.slapp/
+server/maxsessions.json

@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0010C3F489634AB882BC7107 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4665C324AA7104CA3FC3B5 /* RootView.swift */; };
+		00791A5037D3452E6B68A486 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F1B204F83CAADEA644F0F /* SettingsView.swift */; };
+		02FC9E1172F14F25F5432A9B /* SlappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC019C476690AE5BD9A3473D /* SlappApp.swift */; };
+		0DE17E2378B4473EA7FFA784 /* Traffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C60F0B07AC6E3DC341C646 /* Traffic.swift */; };
+		1D4C9C4A79E6AB264EF07780 /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED63C2D3CF8A1724AAA254B /* Intents.swift */; };
+		23DA634C40EA5D81961FAB40 /* Strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274009DCB0A896464361154 /* Strokes.swift */; };
+		5430140C7DB4A6BB44F1B554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E81424C2878F63637F819DD /* Assets.xcassets */; };
+		554EBE6A7E4EBEE62A49B510 /* PhotoSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBE2F5F8B6C8C9AA1A11224 /* PhotoSheet.swift */; };
+		5D6EB31A1E3F57A717CC7329 /* ChannelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B51345623980311279A9E2 /* ChannelModels.swift */; };
+		630167C64ECB646BE6CD5D43 /* ChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55FE2270B90D4FEC770809C /* ChannelView.swift */; };
+		723B8D9CD444CEE97699195E /* WatchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E2A10645EE1194661A823 /* WatchSheet.swift */; };
+		759D25217594C598FAE4F095 /* CaptureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A851F19F77A9D32EC5DF26 /* CaptureModel.swift */; };
+		772DF4B5249E046BB92BBC42 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 91228B44706AE89ED021E897 /* PrivacyInfo.xcprivacy */; };
+		83F59B04EEF2FF624347B96C /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704DF25C5DCEF6B0945A7807 /* Notifications.swift */; };
+		85BB7DDD8FC27819593F25F0 /* SearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD457591E0E6071B9B34A55 /* SearchSheet.swift */; };
+		C2B23168BD486E7B97F01E8A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B9D0ED1A37606CE895047 /* Keychain.swift */; };
+		CB3D5AD43B5FBD076364D98E /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E641AEE79623A3F8A8E71F54 /* Recorder.swift */; };
+		D3EE01F6D176665F0BC03D17 /* MicSend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDFC30C54E46909313A2F4 /* MicSend.swift */; };
+		F4655753CB0C9ED5F62EF6CB /* AnnotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB47149EBFE6DC6D73A28A /* AnnotateView.swift */; };
+		FAE882597599242062E2BC84 /* BridgeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A473809B9A62EF8E0CC6777F /* BridgeClient.swift */; };
+		FF5D6874A23E8C1D10EEA480 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A05592F894BE304AC0A19 /* Haptics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EDDFC30C54E46909313A2F4 /* MicSend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicSend.swift; sourceTree = "<group>"; };
+		3F8E2A10645EE1194661A823 /* WatchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSheet.swift; sourceTree = "<group>"; };
+		4FCB47149EBFE6DC6D73A28A /* AnnotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotateView.swift; sourceTree = "<group>"; };
+		6F3A05592F894BE304AC0A19 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		704DF25C5DCEF6B0945A7807 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		79A851F19F77A9D32EC5DF26 /* CaptureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureModel.swift; sourceTree = "<group>"; };
+		7BBE2F5F8B6C8C9AA1A11224 /* PhotoSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSheet.swift; sourceTree = "<group>"; };
+		7CD457591E0E6071B9B34A55 /* SearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSheet.swift; sourceTree = "<group>"; };
+		91228B44706AE89ED021E897 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		927F1B204F83CAADEA644F0F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		99DD0BA073DD8FB0234231DA /* Slapp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Slapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E81424C2878F63637F819DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4665C324AA7104CA3FC3B5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A274009DCB0A896464361154 /* Strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strokes.swift; sourceTree = "<group>"; };
+		A473809B9A62EF8E0CC6777F /* BridgeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeClient.swift; sourceTree = "<group>"; };
+		A84B9D0ED1A37606CE895047 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		BED63C2D3CF8A1724AAA254B /* Intents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intents.swift; sourceTree = "<group>"; };
+		C55FE2270B90D4FEC770809C /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
+		CC019C476690AE5BD9A3473D /* SlappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlappApp.swift; sourceTree = "<group>"; };
+		D8C60F0B07AC6E3DC341C646 /* Traffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traffic.swift; sourceTree = "<group>"; };
+		E641AEE79623A3F8A8E71F54 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		F0B51345623980311279A9E2 /* ChannelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		66DEC334217E79F684C2612E = {
+			isa = PBXGroup;
+			children = (
+				B6535916A7EBC82C2A65350C /* Slapp */,
+				C8E70B409DA566BD68D3C59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6535916A7EBC82C2A65350C /* Slapp */ = {
+			isa = PBXGroup;
+			children = (
+				4FCB47149EBFE6DC6D73A28A /* AnnotateView.swift */,
+				9E81424C2878F63637F819DD /* Assets.xcassets */,
+				A473809B9A62EF8E0CC6777F /* BridgeClient.swift */,
+				79A851F19F77A9D32EC5DF26 /* CaptureModel.swift */,
+				F0B51345623980311279A9E2 /* ChannelModels.swift */,
+				C55FE2270B90D4FEC770809C /* ChannelView.swift */,
+				6F3A05592F894BE304AC0A19 /* Haptics.swift */,
+				BED63C2D3CF8A1724AAA254B /* Intents.swift */,
+				A84B9D0ED1A37606CE895047 /* Keychain.swift */,
+				1EDDFC30C54E46909313A2F4 /* MicSend.swift */,
+				704DF25C5DCEF6B0945A7807 /* Notifications.swift */,
+				7BBE2F5F8B6C8C9AA1A11224 /* PhotoSheet.swift */,
+				91228B44706AE89ED021E897 /* PrivacyInfo.xcprivacy */,
+				E641AEE79623A3F8A8E71F54 /* Recorder.swift */,
+				9F4665C324AA7104CA3FC3B5 /* RootView.swift */,
+				7CD457591E0E6071B9B34A55 /* SearchSheet.swift */,
+				927F1B204F83CAADEA644F0F /* SettingsView.swift */,
+				CC019C476690AE5BD9A3473D /* SlappApp.swift */,
+				A274009DCB0A896464361154 /* Strokes.swift */,
+				D8C60F0B07AC6E3DC341C646 /* Traffic.swift */,
+				3F8E2A10645EE1194661A823 /* WatchSheet.swift */,
+			);
+			path = Slapp;
+			sourceTree = "<group>";
+		};
+		C8E70B409DA566BD68D3C59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DD0BA073DD8FB0234231DA /* Slapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B2B3DEF1F04DA01BF28010 /* Slapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413A623AEA68A0E876D02174 /* Build configuration list for PBXNativeTarget "Slapp" */;
+			buildPhases = (
+				DE2152B0F93709674C1E5C74 /* Sources */,
+				E04D2CA8860197D4BE16CFD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slapp;
+			packageProductDependencies = (
+			);
+			productName = Slapp;
+			productReference = 99DD0BA073DD8FB0234231DA /* Slapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651FACF7614C70F6438F0B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					56B2B3DEF1F04DA01BF28010 = {
+						DevelopmentTeam = 9V8U7PCW58;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0933367CFBFE3335AA99F29B /* Build configuration list for PBXProject "Slapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 66DEC334217E79F684C2612E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C8E70B409DA566BD68D3C59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B2B3DEF1F04DA01BF28010 /* Slapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E04D2CA8860197D4BE16CFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5430140C7DB4A6BB44F1B554 /* Assets.xcassets in Resources */,
+				772DF4B5249E046BB92BBC42 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2152B0F93709674C1E5C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4655753CB0C9ED5F62EF6CB /* AnnotateView.swift in Sources */,
+				FAE882597599242062E2BC84 /* BridgeClient.swift in Sources */,
+				759D25217594C598FAE4F095 /* CaptureModel.swift in Sources */,
+				5D6EB31A1E3F57A717CC7329 /* ChannelModels.swift in Sources */,
+				630167C64ECB646BE6CD5D43 /* ChannelView.swift in Sources */,
+				FF5D6874A23E8C1D10EEA480 /* Haptics.swift in Sources */,
+				1D4C9C4A79E6AB264EF07780 /* Intents.swift in Sources */,
+				C2B23168BD486E7B97F01E8A /* Keychain.swift in Sources */,
+				D3EE01F6D176665F0BC03D17 /* MicSend.swift in Sources */,
+				83F59B04EEF2FF624347B96C /* Notifications.swift in Sources */,
+				554EBE6A7E4EBEE62A49B510 /* PhotoSheet.swift in Sources */,
+				CB3D5AD43B5FBD076364D98E /* Recorder.swift in Sources */,
+				0010C3F489634AB882BC7107 /* RootView.swift in Sources */,
+				85BB7DDD8FC27819593F25F0 /* SearchSheet.swift in Sources */,
+				00791A5037D3452E6B68A486 /* SettingsView.swift in Sources */,
+				02FC9E1172F14F25F5432A9B /* SlappApp.swift in Sources */,
+				23DA634C40EA5D81961FAB40 /* Strokes.swift in Sources */,
+				0DE17E2378B4473EA7FFA784 /* Traffic.swift in Sources */,
+				723B8D9CD444CEE97699195E /* WatchSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0760F2159AED648129754C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Slapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snail3d.slapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E7FB8391503A95836B4C8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9V8U7PCW58;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8D5A11EF6CA5A223286BF428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9V8U7PCW58;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD78D01FBBD7D3F3CFE58061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Slapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.snail3d.slapp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0933367CFBFE3335AA99F29B /* Build configuration list for PBXProject "Slapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5A11EF6CA5A223286BF428 /* Debug */,
+				5E7FB8391503A95836B4C8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		413A623AEA68A0E876D02174 /* Build configuration list for PBXNativeTarget "Slapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD78D01FBBD7D3F3CFE58061 /* Debug */,
+				0760F2159AED648129754C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 651FACF7614C70F6438F0B12 /* Project object */;
+}
